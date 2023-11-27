@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Flexbox2</title>
+  <style>
+    *{
+  margin: 0;
+  padding: 0;
+}
+header,footer{
+  height: 20vh;
+  background-color: khaki;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  height: 60vh;
+  display: flex;
+}
+article{
+  flex-grow: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+aside{
+  background-color: pink;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav{
+  background-color: aquamarine;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  </style>
+</head>
+<body>
+  <header>
+    header
+  </header>
+  
+  <div class="content">
+    <article>Article</article>
+    <aside>Aside</aside>
+    <nav>Nav</nav>
+  </div>
+  <footer>Footer</footer>
+</body>
+</html>
